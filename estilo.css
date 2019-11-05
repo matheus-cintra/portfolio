@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.container-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.jumbotron-heigth {
+  height: 91vh;
+}
+
+.navbar-item {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+/* 
+#test1 {
+  margin-top: 100px;
+} */
+
+/* #test1::before {
+  display: block;
+  content: ' ';
+  margin-top: -65px;
+  height: 65px;
+  visibility: hidden;
+} */
